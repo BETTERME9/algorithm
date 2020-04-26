@@ -36,7 +36,46 @@ recur(level+1,newParam);
 
 ### 链表
 
+- 从尾到头打印单链表
 
+  ```java
+  		public static int[] reversePrint(ListNode head) {
+  
+          LinkedList<Integer> stack = new LinkedList<Integer>();
+          while(head != null) {
+              stack.addLast(head.val);
+              head = head.next;
+          }
+          int[] res = new int[stack.size()];
+          for(int i = 0; i < res.length; i++)
+              res[i] = stack.removeLast();
+          return res;
+      }
+  ```
+
+  
+
+- 单链表实现约瑟夫环
+
+- 反转单链表
+
+- k个节点为一组进行反转
+
+- 返回链表中间（1/2）节点（返回链表1/K节点）
+
+- 单链表排序（冒泡排序，快速排序）
+
+- 查找单链表中间节点，要求只能遍历一次链表
+
+- 查找单链表的倒数第K个节点，要求只能遍历一次链表
+
+- 删除链表的倒数第k个节点
+
+- 判断单链表中是否带换，若带环，求环的长度，求环的入口点
+
+- 求两个已排序单链表中相同的数据
+
+- 合并两个有序列表，合并后依然有序
 
 
 
@@ -107,6 +146,16 @@ recur(level+1,newParam);
 
 
 ### 堆
+
+- 10GB文件，计算机只有512M大小的可用空间，如何按照字符串大小，给这个10GB文件排序
+- 静态数据求中位数
+- 动态数据求中位数
+
+
+
+---
+
+
 
 
 
