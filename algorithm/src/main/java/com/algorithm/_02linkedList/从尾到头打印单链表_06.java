@@ -1,7 +1,6 @@
-package com.algorithm.linkedList;
+package com.algorithm._02linkedList;
 
 import java.util.LinkedList;
-import java.util.Stack;
 
 /**
  * @Description : //从尾到头打印单链表

@@ -1,7 +1,4 @@
-package com.algorithm.array;
-
-import java.util.HashSet;
-import java.util.Set;
+package com.algorithm._01array;
 
 /**
  * @Description : //零移动

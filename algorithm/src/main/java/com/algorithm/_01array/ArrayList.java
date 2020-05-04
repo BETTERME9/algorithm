@@ -1,4 +1,4 @@
-package com.algorithm.array;
+package com.algorithm._01array;
 
 /**
  * @Description : //动态数组
