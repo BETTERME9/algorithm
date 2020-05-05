@@ -1,12 +1,3 @@
-## 二叉搜索树
-
-###  二叉搜索树
-
-
-
-#### 01、代码实现
-
-```java
 package com.algorithm._05BinarySearchTree;
 
 import com.algorithm._05BinarySearchTree.printer.BinaryTreeInfo;
@@ -492,11 +483,3 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 		return myNode.element + "_p(" + parentString + ")";
 	}
 }
-```
-
-
-
-
-
-#### 02、LeetCode
-

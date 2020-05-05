@@ -40,7 +40,7 @@ public class CircleDeque<E> {
 
 	/**
 	 * 从头部出队
-	 * @param element
+	 * @param
 	 */
 	public E deQueueFront() {
 		E frontElement = elements[front];
@@ -64,7 +64,7 @@ public class CircleDeque<E> {
 
 	/**
 	 * 从尾部出队
-	 * @param element
+	 * @param
 	 */
 	public E deQueueRear() {
 		int rearIndex = index(size - 1);
@@ -105,6 +105,8 @@ public class CircleDeque<E> {
 		if (index < 0) {
 			return index + elements.length;
 		}
+
+		//return (front +index) % element.length;
 		return index - (index >= elements.length ? elements.length : 0);
 	}
 	
